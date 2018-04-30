@@ -12,7 +12,11 @@
         "fzaninotto/faker": "^1.4",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
+<<<<<<< HEAD
         "laravelcollective/html": "^5.6.0"
+=======
+        "fzaninotto/faker": "^1.4"
+>>>>>>> f523aedb895837a07ab40132bcd2dbcef75c109a
     },
     "require-dev": {
         "filp/whoops": "^2.0",
