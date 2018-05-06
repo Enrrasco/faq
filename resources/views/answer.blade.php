@@ -6,6 +6,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">Answer</div>
+
                     <div class="card-body">
                         {{$answer->body}}
                     </div>
