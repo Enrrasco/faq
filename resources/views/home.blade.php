@@ -50,6 +50,22 @@
                             </div>
                         </div>
 
+                        <table class="table table-striped">
+                            <tr>
+                                <th>Questions</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            @foreach($questions as $question)
+                                <tr>
+                                    <th>{{$question->id}}</th>
+                                    <th><a href="/questions/{{$question->id}}/edit" class="btn btn-default">Edit</a></th>
+                                    <th></th>
+                                </tr>
+                            @endforeach
+                        </table>
+                    </div>
+
                     </div>
                 </div>
             </div>
