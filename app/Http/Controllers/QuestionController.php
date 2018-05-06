@@ -19,7 +19,9 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        //
+        //$user = Auth::user();
+        //$answers = $user->answers()->paginate(6);
+        //return view('question')->with('answers', $answers);//
     }
 
     /**

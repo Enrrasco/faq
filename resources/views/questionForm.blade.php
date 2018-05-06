@@ -21,7 +21,9 @@
                         </button>
                         {!! Form::close() !!}
                     </div>
-
+                    <hr>
+                    <small>Written on {{$question->created_at}}</small>
+                    
                 </div>
             </div>
         </div>

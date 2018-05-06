@@ -21,7 +21,7 @@
                             {!! Form::text('body', $answer->body, ['class' => 'form-control','required' => 'required']) !!}
                         </div>
 
-                            <a href="/questions/801" class="btn btn-default">Go back</a>
+                            <a href="/questions/801" class="btn btn-default">Back to Question</a>
 
                         <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Save
                         </button>
