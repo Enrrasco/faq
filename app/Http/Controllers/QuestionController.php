@@ -54,7 +54,7 @@ class QuestionController extends Controller
         $question->user()->associate(Auth::user());
         $question->save();
 
-        return redirect()->route('home')->with('message', 'IT WORKS!');
+        return redirect()->route('home')->with('message', 'QUESTION CREATED!');
     }
     /**
      * Display the specified resource.
